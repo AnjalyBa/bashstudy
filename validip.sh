@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# SCRIPT TO FIND OUT THE ip IS VALID OR NOT
 echo "IP please"
 read  ip
 stat=1
@@ -18,6 +18,8 @@ if [ "${stat}" -eq 0 ]; then
 else
     echo "Invalid IP address"
 fi
+
+## find out the IP is private or public IP
 
 echo "IP address"
 read ip
